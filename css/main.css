@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+:root {
+	--main-bg-color: #eee;
+}
+
+@font-face {
+    font-family: "微軟正黑體粗體修正";
+    font-style: normal;
+    font-weight: bold;
+    src: local("微軟正黑體");
+}
+
+
+html {
+	/*
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	*/
+	
+}
+body {
+	/*
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	*/
+	background-color: var(--main-bg-color);
+	font-family: "微軟正黑體", "Microsoft JhengHei", Arial, 'LiHei Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,strong {
+	font-weight: bold;
+	font-family: "微軟正黑體粗體修正", "微軟正黑體", "Microsoft JhengHei", Arial, 'LiHei Pro', sans-serif;
+}
+
+/* 襯線字 Serif Fonts */
+/*
+	serif
+	"Times New Roman"
+	"Courier New"
+	Georgia
+	"新細明體", PMingLiU
+	"標楷體"
+	
+*/
+.Serif_Fonts {
+	font-family: serif;
+}
+
+/* 無襯線字 Sans-Serif Fonts */
+/*
+	sans-serif
+	Arial
+	"Arial Black"
+	Helvetica
+	Impact
+	"Comic Sans MS"
+	"微軟正黑體", "Microsoft JhengHei"
+	"微軟雅黑", "Microsoft YaHei"
+*/
+.Sans-Serif_Fonts {
+	font-family: sans-serif;
+}
+
+/* 等寬字 */
+/*
+	monospace
+	Consolas
+	Courier
+	"Courier New"
+	"Lucida Console"
+	"細明體"
+*/
+.Monospace_Fonts {
+	font-family: monospace;
+}
+
+a,a:link { color: #5E8C88; text-decoration: none; }
+a:visited { color: #5E8C88; text-decoration: none; }
+a:hover { color: #97D74A; text-decoration: underline; }
+a:active { color: #FF3333; }
+
+
+/* 常用CSS */
+.bg_transparent {
+	background-color: transparent;
+}
+.clear_both {
+	clear: both;
+}
+.big_text_shadow {
+	text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 1px 1px 3px;
+}
